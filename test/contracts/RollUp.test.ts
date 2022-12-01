@@ -4,7 +4,7 @@ import { solidity } from "ethereum-waffle";
 import { BigNumber } from "ethers";
 import { ethers, waffle } from "hardhat";
 import { Utils } from "rollup-pm-sdk";
-import { RollUp } from "../../typechain";
+import { RollUp } from "../../typechain-types";
 
 chai.use(solidity);
 
